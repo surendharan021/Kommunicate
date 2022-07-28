@@ -1,0 +1,67 @@
+:root{
+  --green: #2DD35C;
+  --purple: #5553B7;
+}
+
+.body{
+  margin: 0%;
+}
+p{
+  font:18px sans-serif;
+  margin: 0px;
+  font-size: x-large;
+}
+.text_ecommerce{
+  color: var(--purple);
+  font-weight: 700;
+  font-size:x-large;
+}
+.inner_container{
+  padding: 1rem 2rem;
+  border-top: 1px var(--green) solid;
+  width: 70vw;
+  border-bottom: 1px var(--green) solid;
+  border-right: 1px var(--green) solid;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 250px;
+}
+button{
+  height: 26px;
+  width: 80px;
+  font: 8px sans-serif;
+  font-weight: 600;
+  padding: 0px;
+  border-radius: 20px;
+  border:1px solid;
+  margin: 10px 0px;
+  margin-right: 5px;
+}
+.btn_try{
+ border-color: var(--green);
+ background-color: var(--green);
+ color: white;
+}
+.btn_demo{
+  border-color: var(--purple);
+  background-color: white;
+  color: var(--purple);
+  border-width: 1px !important;
+}
+.container{
+  position: relative;
+  border-left: black solid 1.5px;
+  padding: 1rem 0rem;
+}
+.paper_glass_effect{
+  position: absolute;
+  right: 0px;
+  top: 25%;
+  height: 90px;
+  width: 50vw;
+  border-top-left-radius: 250px;
+  border-bottom-left-radius: 20px;
+  background: rgba(85, 83, 183, 0.3);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
